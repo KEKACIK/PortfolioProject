@@ -1,0 +1,31 @@
+messages:
+  start: |
+    Welcome to <b>{bot_name}</b>!
+  settings: |
+    You have entered ⚙️ Settings!
+  settings_language: |
+    Select the desired language to change the localization.
+  admin: |
+    You have entered the 💎 Admin Panel!
+  admin_export_users_confirm: |
+    ✅ Users database successfully unloaded!
+  admin_mailing_language: |
+    Select language for mailing.
+  admin_mailing_text: |
+    Send me a message for mailing!
+    You can also add to the text: photo, video, document
+  admin_mailing_submit: |
+    Mailing from language: {language}
+    Review your message to send:
+    
+    {send_message}
+buttons:
+  back: "🔙 Back"
+  start_settings: '⚙️ Settings'
+  settings_language: "🎭 Change language"
+  ru: "🇷🇺 Russian"
+  en: "🇺🇸 English"
+  start_admin: "💎 Admin panel"
+  admin_export_users: "🔽 Export Users"
+  admin_mailing: "📨 Do mailing"
+  admin_mailing_yes: "✅ Send"
